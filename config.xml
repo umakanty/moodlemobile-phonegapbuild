@@ -4,11 +4,11 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodle.moodlemobile"
         versionCode = "20170"
-        version   = "0.0.1">
+        version   = "0.0.3">
     <name>Moodle Mobile</name>
 
     <description>
-        Moodle Mobile official app
+        Moodle Mobile Demo App
     </description>
 
     <author href="https://uky.moodlecloud.com/" email="umakantniec@gmail.com">
