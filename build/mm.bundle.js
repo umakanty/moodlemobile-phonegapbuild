@@ -17308,7 +17308,7 @@ angular.module('mm.core.login')
                     $mmLoginHelper.confirmAndOpenBrowserForSSOLogin(
                                 result.siteurl, result.code, result.service, result.config && result.config.launchurl);
                 } else {
-                    $state.go('mm_login.credentials', {siteurl: result.siteurl, siteconfig: result.config});
+                    $state.go('mm_login.credentials', {siteurl: "https://uky.moodlecloud.com/", siteconfig: result.config});
                 }
             }, function(error) {
                 showLoginIssue(url, error);
